@@ -78,7 +78,7 @@ export default function Dashboard() {
           <div className="w-full md:w-1/2 flex justify-center order-1 md:order-2 mb-8 md:mb-0">
             <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-lg overflow-hidden shadow-lg">
               <motion.div className="relative z-10 w-full h-full bg-gray-800">
-                <img src="qosain.jpeg" alt="Qosain Bukhari" className="w-full h-full object-cover" />
+                <img src="/Asset/qosain2.png" alt="Qosain Bukhari" className="w-full h-full object-cover" />
               </motion.div>
             </div>
           </div>

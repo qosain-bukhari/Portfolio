@@ -5,7 +5,6 @@ import { useState } from 'react';
 const menuItems = [
   { icon: Home, label: 'Home', path: '/' },
   { icon: FolderGit2, label: 'Projects', path: '/projects' },
-  { icon: Brain, label: 'Blog', path: '/blog' },
   { icon: Mail, label: 'Contact', path: '/contact' },
 ];
 
