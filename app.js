@@ -7,19 +7,18 @@
             document.getElementById(button.dataset.id).classList.add("active");
         })
     });
+
     document.querySelector(".theme-btn").addEventListener("click", () => {
         document.body.classList.toggle("light-mode");
-    })
-})();
-document.addEventListener("DOMContentLoaded", function () {
-    const downloadBtn = document.getElementById("download-cv");
+    });
 
+    const downloadBtn = document.getElementById("download-cv");
     downloadBtn.addEventListener("click", function (e) {
         const link = document.createElement("a");
-        link.href = "Qosain_Bukhari_CV.pdf";  // Update the path if the file is in a folder
+        link.href = "Qosain_Bukhari_CV.pdf";
         link.download = "Qosain_Bukhari_CV.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
     });
-});
+})();
