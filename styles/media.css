@@ -1,0 +1,554 @@
+/* ===========================================
+   RESPONSIVE STYLES - CONSOLIDATED
+   All media queries in one organized file
+   =========================================== */
+
+/* ===========================================
+   LARGE SCREENS (1400px+)
+   =========================================== */
+@media screen and (min-width: 1400px) {
+  .portfolios { gap: 2.5rem; }
+  .portfolios .portfolio-card .card-body { padding: 2.5rem; }
+  
+  /* Typography optimization */
+  .name { font-size: 3.2rem; }
+  .right-header p { font-size: 1.15rem; line-height: 1.8; }
+  .main-title h2 { font-size: 3.5rem; }
+  .main-title h2 .bg-text { font-size: 6rem; }
+  .port-text { font-size: 1.2rem; }
+  .about-subtitle { font-size: 2.6rem; }
+  .about-description { font-size: 1.2rem; }
+  .section-title { font-size: 2.4rem; }
+  .section-subtitle { font-size: 1.15rem; }
+  .stat-number { font-size: 3rem; }
+  .stat-label { font-size: 1.05rem; }
+  .category-title { font-size: 1.5rem; }
+  .skill-name { font-size: 1.05rem; }
+  .skill-level { font-size: 1rem; }
+  .timeline-title { font-size: 1.6rem; }
+  .timeline-institution { font-size: 1.1rem; }
+  .timeline-description { font-size: 1.05rem; }
+  .portfolio-card .card-title { font-size: 1.4rem; }
+  .portfolio-card .card-desc { font-size: 1rem; }
+  .social-links h5 { font-size: 1.15rem; }
+  .social-link span { font-size: 0.9rem; }
+  .input-field input, .input-field textarea { font-size: 1.1rem; }
+  .input-field label { font-size: 1.1rem; }
+  .main-btn { font-size: 1.1rem; }
+}
+
+/* ===========================================
+   DESKTOP (1432px)
+   =========================================== */
+@media screen and (max-width: 1432px) {
+  .container { padding: 7rem 11rem; }
+  .main-title h2 .bg-text { font-size: 5.5rem; }
+  
+  /* Contact layout adjustments */
+  .contact-content-con {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact {
+    margin-left: 0;
+    margin-top: 2.5rem;
+    margin-bottom: 6rem;
+  }
+  .contact-content-con .right-contact .i-c-2 {
+    flex-direction: column;
+  }
+  .contact-content-con .right-contact .i-c-2 :last-child {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+}
+
+/* ===========================================
+   LAPTOP (1250px)
+   =========================================== */
+@media screen and (max-width: 1250px) {
+  .portfolios { grid-template-columns: repeat(2, 1fr); }
+  .header-content .right-header { padding-right: 9rem; }
+  
+  /* Portfolio grid adjustments */
+  .portfolios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ===========================================
+   TABLET LARGE (1070px)
+   =========================================== */
+@media screen and (max-width: 1070px) {
+  .main-title h2 { font-size: 4rem; }
+  .main-title h2 span { font-size: 4rem; }
+  .main-title h2 .bg-text { font-size: 4.5rem; }
+  
+  /* About section adjustments */
+  .about-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ===========================================
+   TABLET (970px)
+   =========================================== */
+@media screen and (max-width: 970px) {
+  .container { padding: 7rem 6rem; }
+  
+  /* Header adjustments */
+  .header-content { 
+    grid-template-columns: 1fr; 
+    padding-bottom: 6rem; 
+  }
+  .left-header .h-shape { display: none; }
+  .left-header .image { 
+    width: 90% !important; 
+    margin: 0 auto !important; 
+  }
+  .right-header { 
+    grid-row: 1; 
+    padding-right: 0rem !important; 
+    width: 90%; 
+    margin: 0 auto; 
+  }
+  .right-header .name { 
+    font-size: 2.5rem !important; 
+    text-align: center; 
+    padding-top: 3rem; 
+  }
+  
+  /* Portfolio adjustments */
+  .portfolios { 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem; 
+  }
+  .portfolios .portfolio-card .card-body { padding: 2rem; }
+  .portfolios .portfolio-card .card-title { font-size: 1.3rem; }
+  .tech-stack { gap: 0.5rem; }
+  .tech-badge { padding: 0.4rem 0.8rem; font-size: 0.75rem; }
+  
+  /* About section adjustments */
+  .about-content { 
+    grid-template-columns: 1fr; 
+    gap: 3rem; 
+  }
+  .about-stats-grid { 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.5rem; 
+  }
+  .skills-grid { 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 2rem; 
+  }
+  
+  /* Contact adjustments */
+  .contact-content-con { 
+    grid-template-columns: 1fr; 
+    gap: 2rem; 
+  }
+  
+  /* Typography adjustments */
+  .name { font-size: 2.4rem; }
+  .right-header p { font-size: 0.95rem; line-height: 1.6; }
+  .main-title h2 { font-size: 2.8rem; }
+  .main-title h2 .bg-text { font-size: 4.5rem; }
+  .port-text { font-size: 1rem; }
+  .about-subtitle { font-size: 2rem; }
+  .about-description { font-size: 1.05rem; }
+  .section-title { font-size: 1.8rem; }
+  .section-subtitle { font-size: 0.95rem; }
+  .stat-number { font-size: 2.4rem; }
+  .stat-label { font-size: 0.9rem; }
+  .category-title { font-size: 1.2rem; }
+  .skill-name { font-size: 0.9rem; }
+  .skill-level { font-size: 0.85rem; }
+  .timeline-title { font-size: 1.3rem; }
+  .timeline-institution { font-size: 0.95rem; }
+  .timeline-description { font-size: 0.9rem; }
+  .portfolio-card .card-title { font-size: 1.2rem; }
+  .portfolio-card .card-desc { font-size: 0.85rem; }
+  .social-links h5 { font-size: 1rem; }
+  .social-link span { font-size: 0.75rem; }
+  .input-field input, .input-field textarea { font-size: 0.95rem; }
+  .input-field label { font-size: 0.95rem; }
+  .main-btn { font-size: 0.95rem; }
+}
+
+/* ===========================================
+   TABLET SMALL (700px)
+   =========================================== */
+@media screen and (max-width: 700px) {
+  .container { padding: 7rem 3rem; }
+  
+  /* Portfolio adjustments */
+  .portfolios { 
+    grid-template-columns: 1fr; 
+    gap: 1.5rem; 
+    padding: 0 1rem; 
+  }
+  .portfolios .portfolio-card .card-body { padding: 1.3rem; }
+  .portfolios .portfolio-card .card-title { font-size: 1.15rem; }
+  .portfolios .portfolio-card .card-desc { font-size: 0.8rem; line-height: 1.4; }
+  .tech-stack { gap: 0.3rem; justify-content: center; }
+  .tech-badge { padding: 0.25rem 0.5rem; font-size: 0.6rem; }
+  
+  /* About stats adjustments */
+  .about-stats-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .skills-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  /* Timeline adjustments */
+  .journey-timeline {
+    gap: 1.5rem;
+  }
+  
+  /* Typography adjustments */
+  .name { font-size: 2.2rem; }
+  .right-header p { font-size: 0.9rem; line-height: 1.55; }
+  .main-title h2 { font-size: 2.5rem; }
+  .main-title h2 span { font-size: 2.5rem; }
+  .main-title h2 .bg-text { font-size: 4rem; }
+  .port-text { font-size: 0.95rem; }
+  .about-subtitle { font-size: 1.8rem; }
+  .about-description { font-size: 1rem; }
+  .section-title { font-size: 1.6rem; }
+  .section-subtitle { font-size: 0.9rem; }
+  .stat-number { font-size: 2.2rem; }
+  .stat-label { font-size: 0.85rem; }
+  .category-title { font-size: 1.1rem; }
+  .skill-name { font-size: 0.85rem; }
+  .skill-level { font-size: 0.8rem; }
+  .timeline-title { font-size: 1.2rem; }
+  .timeline-institution { font-size: 0.9rem; }
+  .timeline-description { font-size: 0.85rem; }
+  .portfolio-card .card-title { font-size: 1.15rem; }
+  .portfolio-card .card-desc { font-size: 0.8rem; }
+  .social-links h5 { font-size: 0.95rem; }
+  .social-link span { font-size: 0.7rem; }
+  .input-field input, .input-field textarea { font-size: 0.9rem; }
+  .input-field label { font-size: 0.9rem; }
+  .main-btn { font-size: 0.9rem; }
+}
+
+/* ===========================================
+   MOBILE LARGE (660px)
+   =========================================== */
+@media screen and (max-width: 660px) {
+  .portfolios {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* ===========================================
+   MOBILE (600px)
+   =========================================== */
+@media screen and (max-width: 600px) {
+  /* Header adjustments */
+  header { padding: 0 !important; }
+  .theme-btn { width: 50px; height: 50px; }
+  .header-content {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 6rem;
+  }
+  .left-header .h-shape { display: none; }
+  .right-header {
+    grid-row: 1;
+    padding-right: 0rem !important;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .right-header .name {
+    font-size: 2.5rem !important;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  .header-content .left-header .image {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  /* Controls adjustments */
+  .controls {
+    top: auto;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: var(--color-grey-5);
+  }
+  .controls .control {
+    margin: 1rem .3rem;
+  }
+  
+  /* About section adjustments */
+  .about-content { 
+    grid-template-columns: 1fr; 
+    gap: 2rem; 
+  }
+  .about-stats-grid { 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem; 
+  }
+  .stat-card { padding: 1.25rem; }
+  .stat-number { font-size: 2rem; }
+  .stat-label { font-size: 0.8rem; }
+  .about-subtitle { font-size: 1.8rem; }
+  .about-cta { 
+    flex-direction: column; 
+    align-items: stretch; 
+  }
+  .about-btn { min-width: auto; }
+  .section-title { font-size: 1.8rem; }
+  .section-subtitle { font-size: 1rem; }
+  .skills-grid { 
+    grid-template-columns: 1fr; 
+    gap: 1.5rem; 
+  }
+  .category-title { font-size: 1.1rem; }
+  
+  /* Container adjustments */
+  .container { padding: 2rem 2.5rem !important; }
+  
+  /* About stats adjustments */
+  .about-stats-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  /* Portfolio adjustments */
+  .portfolios {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+  }
+  
+  /* Contact adjustments */
+  .contact-card { 
+    padding: 1.5rem; 
+    border-radius: 20px; 
+  }
+  .card-header h4 { font-size: 1.5rem; }
+  .contact-item { padding: 0.8rem; }
+  .icon-bg { width: 45px; height: 45px; }
+  .social-icons { 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .social-link { min-width: 120px; }
+  .contact-form .input-field { margin-bottom: 1.2rem; }
+  .contact-form .input-field input,
+  .contact-form .input-field textarea { 
+    font-size: 0.9rem; 
+    padding: 0.9rem; 
+  }
+  
+  /* Typography adjustments */
+  .name { font-size: 2rem; }
+  .right-header p { font-size: 0.85rem; line-height: 1.5; }
+  .main-title h2 { font-size: 2.2rem; }
+  .main-title h2 span { font-size: 2.2rem; }
+  .main-title h2 .bg-text { font-size: 3.5rem; }
+  .port-text { font-size: 0.9rem; }
+  .about-subtitle { font-size: 1.6rem; }
+  .about-description { font-size: 0.95rem; }
+  .section-title { font-size: 1.5rem; }
+  .section-subtitle { font-size: 0.85rem; }
+  .stat-number { font-size: 2rem; }
+  .stat-label { font-size: 0.8rem; }
+  .category-title { font-size: 1rem; }
+  .skill-name { font-size: 0.8rem; }
+  .skill-level { font-size: 0.75rem; }
+  .timeline-title { font-size: 1.1rem; }
+  .timeline-institution { font-size: 0.85rem; }
+  .timeline-description { font-size: 0.8rem; }
+  .portfolio-card .card-title { font-size: 1.1rem; }
+  .portfolio-card .card-desc { font-size: 0.75rem; }
+  .social-links h5 { font-size: 0.9rem; }
+  .social-link span { font-size: 0.65rem; }
+  .input-field input, .input-field textarea { font-size: 0.85rem; }
+  .input-field label { font-size: 0.85rem; }
+  .main-btn { font-size: 0.85rem; }
+}
+
+/* ===========================================
+   MOBILE SMALL (480px)
+   =========================================== */
+@media screen and (max-width: 480px) {
+  .main-title h2 { font-size: 2rem; }
+  .main-title .bg-text { font-size: 2.5rem; }
+  .port-text { 
+    font-size: 0.9rem; 
+    padding: 0 1rem; 
+  }
+  
+  /* Portfolio adjustments */
+  .portfolios { 
+    grid-template-columns: 1fr; 
+    gap: 1.5rem; 
+    padding: 0 1rem; 
+  }
+  .portfolios .portfolio-card .card-body { padding: 1.2rem; }
+  .portfolios .portfolio-card .card-title { font-size: 1.1rem; }
+  .portfolios .portfolio-card .card-desc { font-size: 0.85rem; line-height: 1.4; }
+  
+  /* About adjustments */
+  .about-stats-grid { 
+    grid-template-columns: 1fr; 
+    gap: 1rem; 
+  }
+  .stat-card { padding: 1rem; }
+  .stat-number { font-size: 1.8rem; }
+  .stat-label { font-size: 0.75rem; }
+  .skills-grid { gap: 1rem; }
+  .skill-category { padding: 1.25rem; }
+  .skill-name { font-size: 0.9rem; }
+  .skill-level { font-size: 0.8rem; }
+  
+  /* Typography adjustments */
+  .name { font-size: 1.8rem; }
+  .right-header p { font-size: 0.8rem; line-height: 1.45; }
+  .main-title h2 { font-size: 2rem; }
+  .main-title h2 .bg-text { font-size: 3rem; }
+  .port-text { font-size: 0.85rem; }
+  .about-subtitle { font-size: 1.4rem; }
+  .about-description { font-size: 0.9rem; }
+  .section-title { font-size: 1.3rem; }
+  .section-subtitle { font-size: 0.8rem; }
+  .stat-number { font-size: 1.8rem; }
+  .stat-label { font-size: 0.75rem; }
+  .category-title { font-size: 0.9rem; }
+  .skill-name { font-size: 0.75rem; }
+  .skill-level { font-size: 0.7rem; }
+  .timeline-title { font-size: 1rem; }
+  .timeline-institution { font-size: 0.8rem; }
+  .timeline-description { font-size: 0.75rem; }
+  .portfolio-card .card-title { font-size: 1rem; }
+  .portfolio-card .card-desc { font-size: 0.7rem; }
+  .social-links h5 { font-size: 0.85rem; }
+  .social-link span { font-size: 0.6rem; }
+  .input-field input, .input-field textarea { font-size: 0.8rem; }
+  .input-field label { font-size: 0.8rem; }
+  .main-btn { font-size: 0.8rem; }
+}
+
+/* ===========================================
+   LARGE SCREEN OPTIMIZATION (1200px+)
+   =========================================== */
+@media screen and (min-width: 1200px) {
+  .portfolios { 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; 
+  }
+  .portfolios .portfolio-card .card-body { padding: 2rem; }
+  .portfolios .portfolio-card .card-title { font-size: 1.4rem; }
+}
+
+/* ===========================================
+   FOOTER RESPONSIVE STYLES
+   =========================================== */
+@media screen and (max-width: 970px) {
+  .footer {
+    padding: 0.5rem 0 0.2rem 0; /* Even more compact on tablets */
+    min-height: 50px; /* Smaller height on tablets */
+    margin-top: 2rem; /* Add some space above footer */
+  }
+  
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.2rem;
+  }
+  
+  .footer-section h5 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 0.4rem 0 0.15rem 0; /* Extremely compact on mobile */
+    margin-top: 0;
+    min-height: 45px; /* Extremely small height on mobile */
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.1rem;
+  }
+  
+  .footer-section h5 {
+    font-size: 0.95rem;
+  }
+  
+  .footer-section p {
+    font-size: 0.9rem;
+  }
+  
+  .footer-social {
+    justify-content: center;
+  }
+  
+  .footer-bottom {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  
+  .footer-bottom p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 0.3rem 0 0.1rem 0; /* Ultra compact on small mobile */
+    min-height: 40px; /* Ultra small height */
+  }
+  
+  .footer-content {
+    padding: 0 0.5rem;
+  }
+  
+  .footer-section h4 {
+    font-size: 1rem;
+  }
+  
+  .footer-section h5 {
+    font-size: 0.9rem;
+  }
+  
+  .footer-section p {
+    font-size: 0.85rem;
+  }
+  
+  .footer-links a {
+    font-size: 0.85rem;
+  }
+  
+  .footer-social a {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .footer-social a i {
+    font-size: 1rem;
+  }
+}
+
+

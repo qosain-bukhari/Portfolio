@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Qosain Bukhari — Data Science and Machine Learning student. Projects, skills, and contact details.">
     <title>Qosain-Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,7 +19,7 @@
             <div class="left-header">
                 <div class="h-shape"></div>
                 <div class="image">
-                    <img src="img/hero1.png" alt="">
+                    <img src="img/hero1.png" alt="Portrait of Qosain Bukhari">
                 </div>
             </div>
             <div class="right-header">
@@ -29,14 +31,11 @@
                     I'm a self-taught and highly motivated undergraduate student in Software Engineering with hands-on experience in real-world machine learning projects. Skilled in Python, data preprocessing, model building, and visualization. Actively seeking opportunities to solve real-world problems and contribute to data-driven decision-making.
                 </p>
                 <div class="btn-con">
-    <a id="download-cv" href="Resume.pdf" class="main-btn" download>
-        <span class="btn-text">Download CV</span>
-        <span class="btn-icon"><i class="fas fa-download"></i></span>
-    </a>
-</div>
-
-
-      
+                    <a id="download-cv" href="Resume.pdf" class="main-btn" download aria-label="Download CV">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download" aria-hidden="true"></i></span>
+                    </a>
+                </div>
             </div>
         </div>
     </header>
@@ -45,152 +44,275 @@
             <div class="main-title">
                 <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
             </div>
-            <div class="about-container">
-                <div class="left-about">
-                    <h4>Information About me</h4>
-                    <p>
-I am Qosain Bukhari, an aspiring Data Science and Machine Learning practitioner from Mirpur, AJK, Pakistan, currently pursuing a Bachelor's degree in Software Engineering at MUST – Mirpur University of Science & Technology.
-
-With a strong foundation in Python and applied machine learning. 
-
-
-                    </p>
-                </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">5+</p>
-                            <p class="small-text">Projects <br /> Completed</p>
+            <div class="about-hero">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3 class="about-subtitle">Passionate ML Engineer & Data Scientist</h3>
+                        <p class="about-description">
+                            I am <span class="highlight">Qosain Bukhari</span>, an aspiring Data Science and Machine Learning practitioner from Mirpur, AJK, Pakistan. Currently pursuing a Bachelor's degree in Software Engineering at MUST – Mirpur University of Science & Technology.
+                        </p>
+                        <p class="about-description">
+                            With a strong foundation in Python and applied machine learning, I specialize in building intelligent solutions that solve real-world problems. My journey involves continuous learning, practical experimentation, and creating impactful projects.
+                        </p>
+                        <div class="about-cta">
+                            <a href="#portfolio" class="about-btn primary">View My Work</a>
+                            <a href="#contact" class="about-btn secondary">Get In Touch</a>
                         </div>
                     </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">1+</p>
-                            <p class="small-text">Years of <br /> experience</p>
+                    <div class="about-stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4 class="stat-number">10+</h4>
+                                <p class="stat-label">Projects Completed</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">100+</p>
-                            <p class="small-text">Hours of <br /> Learning</p>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4 class="stat-number">1+</h4>
+                                <p class="stat-label">Years Experience</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">4+</p>
-                            <p class="small-text">Certifications <br /> Earned</p>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4 class="stat-number">500+</h4>
+                                <p class="stat-label">Hours Learning</p>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4 class="stat-number">4+</h4>
+                                <p class="stat-label">Certifications</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">90%</p>
-                            <div class="progress">
-                                <span class="python"></span>
+                <h3 class="section-title">Technical Skills</h3>
+                <p class="section-subtitle">Proficiency in key technologies and frameworks</p>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4 class="category-title">Programming & ML</h4>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Scikit-learn</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Pandas</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">NumPy</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Pandas</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="pandas"></span>
+                    
+                    <div class="skill-category">
+                        <h4 class="category-title">Data & Visualization</h4>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Data Visualization</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Matplotlib</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Seaborn</span>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Scikit-learn</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="sklearn"></span>
+                    
+                    <div class="skill-category">
+                        <h4 class="category-title">Web Development</h4>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Flask</span>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Streamlit</span>
+                                    <span class="skill-level">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Matplotlib </p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="sklearn"></span>
+                    
+                    <div class="skill-category">
+                        <h4 class="category-title">Web Scraping & Automation</h4>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Selenium</span>
+                                    <span class="skill-level">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Data visualization</p>
-                        <div class="progress-con">
-                            <p class="prog-text">85%</p>
-                            <div class="progress">
-                                <span class="sklearn"></span>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Beautiful Soup</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Flask</p>
-                        <div class="progress-con">
-                            <p class="prog-text">75%</p>
-                            <div class="progress">
-                                <span class="flask"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Streamlit</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="streamlit"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Selenium</p>
-                        <div class="progress-con">
-                            <p class="prog-text">60%</p>
-                            <div class="progress">
-                                <span class="selenium"></span>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Requests</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-             <h4 class="stat-title">Academic & Professional Timeline</h4>
-            <div class="timeline fade-in">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-user-graduate"></i>
+            <div class="timeline-section">
+                <h3 class="section-title">Academic & Professional Journey</h3>
+                <p class="section-subtitle">My educational background and learning path</p>
+                <div class="journey-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="marker-icon">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-period">2022 - 2026</span>
+                                <h4 class="timeline-title">BS Software Engineering</h4>
+                                <span class="timeline-institution">MUST, Mirpur</span>
+                            </div>
+                            <p class="timeline-description">
+                                Pursuing a comprehensive degree in Software Engineering with specialized focus on Artificial Intelligence, Machine Learning, and Data Science. Maintaining strong academic performance while actively working on real-world projects.
+                            </p>
+                        </div>
                     </div>
-                    <p class="tl-duration">2022 - 2026</p>
-                    <h5>BS Software Engineering<span> - MUST, Mirpur</span></h5>
-                    <p>
-                        Pursuing a comprehensive degree in Software Engineering with specialized focus on Artificial Intelligence, Machine Learning, and Data Science. Maintaining strong academic performance while actively working on real-world projects.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-laptop-code"></i>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="marker-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-period">2023 - Present</span>
+                                <h4 class="timeline-title">Self-Taught ML Engineer</h4>
+                                <span class="timeline-institution">Independent Learning</span>
+                            </div>
+                            <p class="timeline-description">
+                                Dedicated 500+ hours to mastering machine learning through online courses, practical projects, and hands-on experimentation. Built multiple end-to-end ML applications deployed on cloud platforms.
+                            </p>
+                        </div>
                     </div>
-                    <p class="tl-duration">2023 - Present</p>
-                    <h5>Self-Taught ML Engineer<span> - Independent Learning</span></h5>
-                    <p>
-                        Dedicated 500+ hours to mastering machine learning through online courses, practical projects, and hands-on experimentation. Built multiple end-to-end ML applications deployed on cloud platforms.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-school"></i>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <div class="marker-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-period">2019 - 2021</span>
+                                <h4 class="timeline-title">F.Sc Pre-Engineering</h4>
+                                <span class="timeline-institution">AJK BISE</span>
+                            </div>
+                            <p class="timeline-description">
+                                Completed with exceptional 93.7% marks. Studied Additional Mathematics alongside core pre-engineering subjects, building a strong foundation in mathematical concepts essential for ML algorithms.
+                            </p>
+                        </div>
                     </div>
-                    <p class="tl-duration">2019 - 2021</p>
-                    <h5>F.Sc Pre-Engineering<span> - AJK BISE</span></h5>
-                    <p>
-                        Completed with exceptional 93.7% marks. Studied Additional Mathematics alongside core pre-engineering subjects, building a strong foundation in mathematical concepts essential for ML algorithms.
-                    </p>
                 </div>
             </div>
         </section>
@@ -202,84 +324,144 @@ With a strong foundation in Python and applied machine learning.
         Here is some of my work that I've done in machine learning, data analysis, and web scraping.
     </p>
     <div class="portfolios">
-        <div class="portfolio-item">
-            <div class="image">
-                <img src="img/Diabestes_pic.png" alt="">
-            </div>
-            <div class="hover-items">
-                <h3>Diabetes Prediction Web App</h3>
-                 <p>ML-powered web application for early diabetes detection using patient health metrics.</p>
-                <div class="icons">
-                    <a href="https://github.com/qosain-bukhari/Diabetes_Prediction" class="icon" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
+        <div class="portfolio-card">
+            <div class="card-image" data-project-type="Machine Learning">
+                <img src="img/Diabestes_pic.png" alt="Diabetes Prediction Web App screenshot" loading="lazy">
+                <div class="hover-text">
+                    <h4>Diabetes Prediction</h4>
+                    <p>ML-powered web application for early diabetes detection</p>
                 </div>
             </div>
-        </div>
-        <div class="portfolio-item">
-            <div class="image">
-                <img src="img/Breast.png" alt="">
-            </div>
-            <div class="hover-items">
-                <h3>Breast Prediction Web App</h3>
-                 <p>Advanced ML classifier for breast cancer diagnosis with 97% accuracy, deployed on AWS.</p>
-                <div class="icons">
-                    <a href="https://github.com/qosain-bukhari/Breast_Cancer_Detection" class="icon" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                       <a href="http://13.218.177.195:5000/" class="project-link" target="_blank">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
+            <div class="card-body">
+                <h3 class="card-title">Diabetes Prediction Web App</h3>
+                <p class="card-desc">
+                    A comprehensive machine learning application that predicts diabetes risk using patient health metrics. Features include data preprocessing, model training, and a user-friendly web interface for real-time predictions.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Scikit-learn</span>
+                    <span class="tech-badge">Flask</span>
+                    <span class="tech-badge">HTML/CSS</span>
                 </div>
-            </div>
-        </div>
-
-        <div class="portfolio-item">
-            <div class="image">
-                <img src="img/Forest.jpg" alt="">
-            </div>
-            <div class="hover-items">
-                <h3>Algerian Forest Fire ML Analysis</h3>
-                 <p>Comprehensive ML analysis for predicting forest fire risks using environmental data.</p>
-                <div class="icons">
-                    <a href="https://github.com/qosain-bukhari/Algerian-Forest-Fire-ML-Analysis-" class="icon" target="_blank">
-                        <i class="fab fa-github"></i>
+                <div class="card-actions">
+                    <a href="https://github.com/qosain-bukhari/Diabetes_Prediction" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="View Diabetes Prediction on GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>View on GitHub</span>
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="portfolio-item">
-            <div class="image">
-                <img src="img/port5.jpg" alt="">
+        <div class="portfolio-card featured">
+            <div class="card-image" data-project-type="Machine Learning">
+                <img src="img/Breast.png" alt="Breast Cancer Detection Web App screenshot" loading="lazy">
+                <div class="hover-text">
+                    <h4>Breast Cancer Detection</h4>
+                    <p>Advanced ML classifier with 97% accuracy</p>
+                </div>
             </div>
-            <div class="hover-items">
-                <h3>E-commerce Sales Analysis</h3>
-                <p>Deep dive into sales patterns, customer behavior, and revenue optimization strategies.</p>
-                <div class="icons">
-                    <a href="https://github.com/qosain-bukhari/Ecommerce-Sales-Analysis" class="icon" target="_blank">
-                        <i class="fab fa-github"></i>
+            <div class="card-body">
+                <h3 class="card-title">Breast Cancer Detection Web App</h3>
+                <p class="card-desc">
+                    Advanced machine learning classifier for breast cancer diagnosis achieving 97% accuracy. Deployed on AWS with containerization, featuring real-time image processing and comprehensive diagnostic reports.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">TensorFlow</span>
+                    <span class="tech-badge">Docker</span>
+                </div>
+                <div class="card-actions">
+                    <a href="https://github.com/qosain-bukhari/Breast_Cancer_Detection" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="View Breast Cancer Detection on GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>View on GitHub</span>
                     </a>
                 </div>
             </div>
         </div>
 
-        <div class="portfolio-item">
-            <div class="image">
-                <img src="img/port1.jpg" alt="">
+        <div class="portfolio-card">
+            <div class="card-image" data-project-type="Machine Learning">
+                <img src="img/Forest.jpg" alt="Algerian Forest Fire ML Analysis screenshot" loading="lazy">
+                <div class="hover-text">
+                    <h4>Forest Fire Analysis</h4>
+                    <p>Environmental risk prediction using ML</p>
+                </div>
             </div>
-            <div class="hover-items">
-                <h3>Google Play Store Dataset Analysis</h3>
-                 <p>Comprehensive analysis of app market trends, ratings, and success factors using big data.</p>
-                <div class="icons">
-                    <a href="https://github.com/qosain-bukhari/Google_play_store-Analysis" class="icon" target="_blank">
-                        <i class="fab fa-github"></i>
+            <div class="card-body">
+                <h3 class="card-title">Algerian Forest Fire ML Analysis</h3>
+                <p class="card-desc">
+                    Comprehensive machine learning analysis for predicting forest fire risks using environmental data. Includes data visualization, feature engineering, and multiple ML algorithms for risk assessment.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Pandas</span>
+                    <span class="tech-badge">Matplotlib</span>
+                    <span class="tech-badge">Scikit-learn</span>
+                </div>
+                <div class="card-actions">
+                    <a href="https://github.com/qosain-bukhari/Algerian-Forest-Fire-ML-Analysis-" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="View Algerian Forest Fire ML Analysis on GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>View on GitHub</span>
                     </a>
                 </div>
             </div>
         </div>
 
-        
+        <div class="portfolio-card">
+            <div class="card-image" data-project-type="Business Analytics">
+                <img src="img/port5.jpg" alt="E-commerce Sales Analysis screenshot" loading="lazy">
+                <div class="hover-text">
+                    <h4>E-commerce Analysis</h4>
+                    <p>Sales optimization insights</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">E-commerce Sales Analysis</h3>
+                <p class="card-desc">
+                    Deep dive into sales patterns, customer behavior analysis, and revenue optimization strategies. Provides actionable insights for business growth and marketing strategy development.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Pandas</span>
+                    <span class="tech-badge">Seaborn</span>
+                    <span class="tech-badge">Jupyter</span>
+                </div>
+                <div class="card-actions">
+                    <a href="https://github.com/qosain-bukhari/Ecommerce-Sales-Analysis" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="View E-commerce Sales Analysis on GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>View on GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-card">
+            <div class="card-image" data-project-type=" Google_play_store-Analysis">
+                <img src="img/port1.jpg" alt="Google Play Store Dataset Analysis screenshot" loading="lazy">
+                <div class="hover-text">
+                    <h4>App Store Analysis</h4>
+                    <p>Market trend insights</p>
+                </div>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">Google Play Store Dataset Analysis</h3>
+                <p class="card-desc">
+                    Comprehensive analysis of app market trends, ratings, and success factors using big data. Identifies key patterns for app development and marketing strategies.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Pandas</span>
+                    <span class="tech-badge">Plotly</span>
+                    <span class="tech-badge">BigQuery</span>
+                </div>
+                <div class="card-actions">
+                    <a href="https://github.com/qosain-bukhari/Google_play_store-Analysis" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="View Google Play Store Analysis on GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>View on GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
      <section class="container contact" id="contact">
@@ -288,117 +470,196 @@ With a strong foundation in Python and applied machine learning.
             <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
         </div>
         <div class="contact-content-con">
-            <div class="left-contact">
-                <h4>Contact me here</h4>
-                <p>
-                    Feel free to reach out for collaboration, internship opportunities, or project discussions. I'm always open to learning and building new things in the field of data science and AI.
-                </p>
+            <div class="contact-card left-contact">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <i class="fas fa-address-card"></i>
+                    </div>
+                    <h4>Contact Information</h4>
+                    <p class="contact-subtitle">Available for internships, collaborations, and project work.</p>
+                </div>
                 
                 <div class="contact-info">
                     <div class="contact-item">
-                        <div class="icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Location</span>
+                        <div class="contact-icon-wrapper">
+                            <div class="icon-bg">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Location</span>
+                                <p class="contact-value">Mirpur, AJK, Pakistan</p>
+                            </div>
                         </div>
-                        <p>
-                             Mirpur, AJK, Pakistan
-                        </p>
                     </div>
                     <div class="contact-item">
-                        <div class="icon">
-                            <i class="fas fa-envelope"></i>
-                            <span>Email</span>
+                        <div class="contact-icon-wrapper">
+                            <div class="icon-bg">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <p class="contact-value">bukhariqosain824@gmail.com</p>
+                            </div>
                         </div>
-                        <p>
-                            <span> bukhariqosain824@gmail.com</span>
-                        </p>
                     </div>
                     <div class="contact-item">
-                        <div class="icon">
-                            <i class="fas fa-user-graduate"></i>
-                            <span>Education</span>
+                        <div class="contact-icon-wrapper">
+                            <div class="icon-bg">
+                                <i class="fas fa-user-graduate"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Education</span>
+                                <p class="contact-value">Software Engineering</p>
+                            </div>
                         </div>
-                        <p>
-                            <span>Software Engineering</span>
-                        </p>
                     </div>
                     <div class="contact-item">
-                        <div class="icon">
-                            <i class="fas fa-user-graduate"></i>
-                            <span>Mobile Number</span>
+                        <div class="contact-icon-wrapper">
+                            <div class="icon-bg">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Mobile Number</span>
+                                <p class="contact-value">+92-3378624851</p>
+                            </div>
                         </div>
-                        <p>
-                            <span> +92-3378624851</span>
-                        </p>
                     </div>
                     <div class="contact-item">
-                        <div class="icon">
-                            <i class="fas fa-globe-africa"></i>
-                            <span>Languages</span>
+                        <div class="contact-icon-wrapper">
+                            <div class="icon-bg">
+                                <i class="fas fa-globe-africa"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Languages</span>
+                                <p class="contact-value">Urdu (Native), English (Intermediate)</p>
+                            </div>
                         </div>
-                        <p>
-                            <span> Urdu (Native), English (Intermediate)</span>
-                        </p>
                     </div>
                 </div>
-                <div class="contact-icons">
-                    <div class="contact-icon">
-                        <a href="https://github.com/qosain-bukhari" target="_blank">
+                
+                <div class="social-links">
+                    <h5>Connect with me</h5>
+                    <div class="social-icons">
+                        <a href="https://github.com/qosain-bukhari" target="_blank" rel="noopener noreferrer" class="social-link github">
                             <i class="fab fa-github"></i>
+                            <span>GitHub</span>
                         </a>
-                        <a href="https://www.linkedin.com/in/syedqosainbukhari" target="_blank">
+                        <a href="https://www.linkedin.com/in/syedqosainbukhari" target="_blank" rel="noopener noreferrer" class="social-link linkedin">
                             <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
                         </a>
                     </div>
                 </div>
             </div>
-           
-
             
-            <div class="right-contact">
-    <form action="https://formspree.io/f/mnnzaknb" method="POST" class="contact-form">
-        <div class="input-control i-c-2">
-            <input type="text" name="name" required placeholder="Your Name">
-            <input type="email" name="email" required placeholder="Your Email">
-        </div>
-        <div class="input-control">
-            <input type="text" name="subject" required placeholder="Enter Subject">
-        </div>
-        <div class="input-control">
-            <textarea name="message" cols="15" rows="8" required placeholder="Message here..."></textarea>
-        </div>
-        <div class="submit-btn">
-    <button type="submit" class="main-btn">
-        <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
-    </button>
-</div>
-
-    </form>
-</div>
-
+            <div class="contact-card right-contact">
+                <div class="card-header">
+                    <div class="card-icon">
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+                    <h4>Send Message</h4>
+                    <p class="contact-subtitle">Let's discuss your project or opportunity.</p>
+                </div>
+                
+                <form action="https://formspree.io/f/mnnzaknb" method="POST" class="contact-form" novalidate>
+                    <div class="input-control i-c-2">
+                        <div class="input-field">
+                            <i class="fas fa-user"></i>
+                            <input id="contact-name" type="text" name="name" required placeholder=" " autocomplete="name">
+                            <label for="contact-name">Your Name</label>
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-envelope"></i>
+                            <input id="contact-email" type="email" name="email" required placeholder=" " autocomplete="email">
+                            <label for="contact-email">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="input-control">
+                        <div class="input-field">
+                            <i class="fas fa-tag"></i>
+                            <input id="contact-subject" type="text" name="subject" required placeholder=" " autocomplete="off">
+                            <label for="contact-subject">Subject</label>
+                        </div>
+                    </div>
+                    <div class="input-control">
+                        <div class="input-field textarea">
+                            <i class="fas fa-comment-dots"></i>
+                            <textarea id="contact-message" name="message" rows="8" required placeholder=" " autocomplete="off"></textarea>
+                            <label for="contact-message">Message</label>
+                        </div>
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit" class="main-btn" aria-label="Send message">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </section>
 
     </main>
 
-    <div class="controls">
-        <div class="control active-btn" data-id="home" >
-            <i class="fas fa-home"></i>
+    <!-- Footer Section - Only visible on home page -->
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Qosain Bukhari</h4>
+                <p>Data Science & Machine Learning Student</p>
+                <p class="footer-location">Mirpur, AJK, Pakistan</p>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Quick Links</h5>
+                <ul class="footer-links">
+                    <li><a href="#home" class="footer-link">Home</a></li>
+                    <li><a href="#about" class="footer-link">About</a></li>
+                    <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+                    <li><a href="#contact" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Connect</h5>
+                <div class="footer-social">
+                    <a href="https://github.com/qosain-bukhari" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/syedqosainbukhari" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:bukhariqosain824@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="control" data-id="about">
-            <i class="fas fa-user"></i>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Qosain Bukhari. All rights reserved.</p>
+            <p>Built with ❤️ for Data Science & ML</p>
         </div>
-        <div class="control" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
+    </footer>
+
+    <div class="controls" role="navigation" aria-label="Section navigation">
+        <div class="control active-btn" data-id="home" role="button" tabindex="0" aria-controls="home" aria-label="Go to Home" >
+            <i class="fas fa-home" aria-hidden="true"></i>
+        </div>
+        <div class="control" data-id="about" role="button" tabindex="0" aria-controls="about" aria-label="Go to About">
+            <i class="fas fa-user" aria-hidden="true"></i>
+        </div>
+        <div class="control" data-id="portfolio" role="button" tabindex="0" aria-controls="portfolio" aria-label="Go to Portfolio">
+            <i class="fas fa-briefcase" aria-hidden="true"></i>
         </div>
        
-        <div class="control" data-id="contact">
-            <i class="fas fa-envelope-open"></i>
+        <div class="control" data-id="contact" role="button" tabindex="0" aria-controls="contact" aria-label="Go to Contact">
+            <i class="fas fa-envelope-open" aria-hidden="true"></i>
         </div>
     </div>
-    <div class="theme-btn">
-        <i class="fas fa-adjust"></i>
+    <div class="theme-btn" aria-label="Toggle color theme" aria-pressed="false">
+        <i class="fas fa-adjust" aria-hidden="true"></i>
     </div>
     <script src="app.js"></script>
 </body>
