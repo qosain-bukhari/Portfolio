@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Passonate Data Science and Ai Student  ">
+    <title>AiMaven - AiEngineer </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Assets/Gallery/Logo.png" alt="MetalCraft Pro Logo">
+                    <span>AI-Maven</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#services" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+<section id="hero">
+    <div class="hero-content">
+        <h1>AI & Data Science Solutions</h1>
+        <h2>Turning Data into Insight and Decision </h2>
+        <p>Building intelligent systems with machine learning, NLP, and advanced analytics</p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+             <a href="Resume.pdf" download class="btn btn-secondary">Download CV</a>
+        </div>
+    </div>
+</section>
+   
+<!-- Services Section -->
+<section id="services" class="section-padding">
+    <div class="container">
+        <div class="section-header">
+            <h2>My <span>SKills</span></h2>
+            <p>Practical data-driven solutions and automation tailored to business needs</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Data Science</h3>
+                <p>End-to-end data analysis and model building to generate valuable insights.</p>
+                <ul class="service-features">
+                    <li>Data cleaning & preprocessing</li>
+                    <li>Exploratory Data Analysis (EDA)</li>
+                    <li>Feature engineering</li>
+                    <li>Statistical analysis</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Machine Learning</h3>
+                <p>Building intelligent models that learn from data and deliver predictions.</p>
+                <ul class="service-features">
+                    <li>Regression & Classification</li>
+                    <li>Clustering & NLP</li>
+                    <li>Model evaluation & tuning</li>
+                    <li>Real-world ML projects</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>Web Scraping & Automation</h3>
+                <p>Extracting and automating data collection from any website securely.</p>
+                <ul class="service-features">
+                    <li>Selenium / BeautifulSoup</li>
+                    <li>Data extraction pipelines</li>
+                    <li>Automated workflows</li>
+                    <li>Freelancing-ready scripts</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Developing interactive web apps and dashboards for businesses.</p>
+                <ul class="service-features">
+                    <li>Flask APIs</li>
+                    <li>Streamlit dashboards</li>
+                    <li>RESTful applications</li>
+                    <li>Data visualization apps</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Databases & SQL</h3>
+                <p>Designing and managing databases to store and query business data efficiently.</p>
+                <ul class="service-features">
+                    <li>SQL (MySQL, SQLite)</li>
+                    <li>Database design</li>
+                    <li>Query optimization</li>
+                    <li>Data pipelines</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-box"></i>
+                </div>
+                <h3>Deployment & Tools</h3>
+                <p>Making your projects production-ready with modern tools and environments.</p>
+                <ul class="service-features">
+                    <li>Docker containerization</li>
+                    <li>Version control (Git/GitHub)</li>
+                    <li>Cloud deployment basics</li>
+                    <li>Portfolio-ready solutions</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Project Gallery Section -->
+<section id="projects" class="section-padding dark-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>My <span>Projects</span></h2>
+      <p>Explore my portfolio of data science, ML/NLP, and web scraping projects</p>
+    </div>
+
+    <!-- Filter Controls -->
+    <div class="filter-controls">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="ds">Data Science</button>
+      <button class="filter-btn" data-filter="mlnlp">ML & NLP</button>
+      <button class="filter-btn" data-filter="web">Web Scraping</button>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Data Science Projects -->
+      <div class="project-item" data-category="mlnlp">
+        <div class="project-image">
+          <img src="/Assets/Project/Pc1.png" alt="Network Security Project">
+        </div>
+        <div class="project-info">
+          <h3>End-to-End Network Security Project</h3>
+          <p>A modular ML pipeline with ingestion, transformation, and model training for network security.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Data Pipeline</span>
+          </div>
+          <span class="project-category">Machine Learning </span>
+          <a href="https://github.com/qosain-bukhari/End_to_end_Network_security_project" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-item" data-category="mlnlp">
+        <div class="project-image">
+          <img src="/Assets/Project/student-score.png" alt="Student Score Prediction">
+        </div>
+        <div class="project-info">
+          <h3>Student Score Prediction Pipeline</h3>
+          <p>End-to-end ML pipeline predicting student math scores using demographic and exam data.</p>
+          <div class="project-tags">
+            <span class="tag">Regression</span>
+            <span class="tag">Python</span>
+          </div>
+          <span class="project-category">Machine learning</span>
+          <a href="https://github.com/qosain-bukhari/End-To-end-Project-Using-Pipeline-Machinelearning" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-item" data-category="ds">
+        <div class="project-image">
+          <img src="/Assets/Project/Forest.jpg" alt="Algerian Forest Fire Analysis">
+        </div>
+        <div class="project-info">
+          <h3>Algerian Forest Fire Analysis</h3>
+          <p>Exploratory data analysis and predictive modeling of Algerian forest fire dataset for risk assessment.</p>
+          <div class="project-tags">
+            <span class="tag">EDA</span>
+            <span class="tag">Visualization</span>
+          </div>
+          <span class="project-category">Data Science</span>
+          <a href="https://github.com/qosain-bukhari/Algerian-Forest-Fire-ML-Analysis" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-item" data-category="ds">
+        <div class="project-image">
+          <img src="images/google-play.jpg" alt="Google Play Store Analysis">
+        </div>
+        <div class="project-info">
+          <h3>Google Play Store Analysis</h3>
+          <p>Exploratory analysis of Google Play Store apps dataset with visualization and insights.</p>
+          <div class="project-tags">
+            <span class="tag">EDA</span>
+            <span class="tag">Python</span>
+          </div>
+          <span class="project-category">Data Science</span>
+          <a href="https://github.com/qosain-bukhari/Google_play_store-Analysis" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+      </div>
+
+      <!-- ML & NLP Projects -->
+      <div class="project-item" data-category="mlnlp">
+        <div class="project-image">
+          <img src="images/telco-churn.jpg" alt="Telco Customer Churn Prediction">
+        </div>
+        <div class="project-info">
+          <h3>Telco Customer Churn Prediction</h3>
+          <p>ML model to predict customer churn using telecom dataset with feature engineering.</p>
+          <div class="project-tags">
+            <span class="tag">Classification</span>
+            <span class="tag">ML</span>
+          </div>
+          <span class="project-category">Machine Learning</span>
+          <a href="https://github.com/qosain-bukhari/Telco-Customer-Churn-Prediction" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-item" data-category="mlnlp">
+        <div class="project-image">
+          <img src="/Assets/Project/Breast.png" alt="Breast Cancer Detection">
+        </div>
+        <div class="project-info">
+          <h3>Breast Cancer Detection</h3>
+          <p>Classification project to detect breast cancer using medical dataset.</p>
+          <div class="project-tags">
+            <span class="tag">ML</span>
+            <span class="tag">Python</span>
+          </div>
+          <span class="project-category">Machine Learning</span>
+          <a href="https://github.com/qosain-bukhari/Breast_Cancer_Detection" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-item" data-category="mlnlp">
+        <div class="project-image">
+          <img src="/Assets/Project/Diabestes_pic.png" alt="Diabetes Prediction">
+        </div>
+        <div class="project-info">
+          <h3>Diabetes Prediction</h3>
+          <p>ML model predicting diabetes using patient health indicators.</p>
+          <div class="project-tags">
+            <span class="tag">ML</span>
+            <span class="tag">Classification</span>
+          </div>
+          <span class="project-category">Machine Learning</span>
+          <a href="https://github.com/qosain-bukhari/Diabetes_Prediction" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+      </div>
+
+      <!-- Web Scraping Projects -->
+      <div class="project-item" data-category="web">
+        <div class="project-image">
+          <img src="images/ecommerce-scraper.jpg" alt="E-commerce Scraper">
+        </div>
+        <div class="project-info">
+          <h3>E-commerce Scraper</h3>
+          <p>Book scraper with pagination and category support, built for e-commerce datasets.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Selenium</span>
+          </div>
+          <span class="project-category">Web Scraping</span>
+          <a href="https://github.com/qosain-bukhari/Ecommerce_scraper" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+      </div>
+    </div> <!-- /.projects-grid -->
+
+    <!-- Show More / Show Less Button -->
+    <div class="projects-toggle">
+      <button id="show-more-btn" type="button">Show More</button>
+    </div>
+  </div> <!-- /.container -->
+</section>
+
+
+   <!-- About Me Section -->
+<section id="about" class="section-padding">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-image">
+                <div class="about-placeholder"></div>
+            </div>
+            <div class="about-content">
+                <div class="section-header text-left">
+                    <h2>About <span>Qosain Bukhari</span></h2>
+                    <p>@AiEngineer | Machine Learning | Deep Learning & NLP </p>
+                </div>
+                <p>I am Qosain Bukhari, a self-taught Data Scientist with practical experience in Python, Machine Learning, NLP, and data automation. I have worked on multiple real-world projects, covering the complete data science lifecycle including data collection, cleaning, preprocessing, feature engineering, model building, evaluation, and deployment.</p>
+                <p>My expertise includes data analysis, predictive modeling, natural language processing, and automation workflows. I use Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, and frameworks like Flask and Streamlit to develop and deploy end-to-end data-driven solutions.</p>
+
+                <div class="company-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Tools & Technologies</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Commitment to Learning</span>
+                    </div>
+                </div>
+
+                <div class="about-cta">
+                    <a href="#contact" class="btn btn-primary">Work With Me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="section-padding dark-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Testimonials & <span>Endorsements</span></h2>
+            <p>What people say about Qosain Bukhari’s Data Science and ML work</p>
+        </div>
+
+        <div class="testimonial-slider">
+            <div class="slider-container">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Qosain Bukhari’s expertise in Data Science and Machine Learning is outstanding. His projects demonstrate a deep understanding of Python, ML models, and NLP, with highly practical applications."</p>
+                        <div class="testimonial-author">
+                            <h4>Professional Mentor</h4>
+                            <p>Guided multiple data science projects</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Impressive portfolio! The end-to-end machine learning pipelines, NLP implementations, and real-world datasets handled by Qosain show both skill and dedication."</p>
+                        <div class="testimonial-author">
+                            <h4>Industry Peer</h4>
+                            <p>Data Science Enthusiast & Collaborator</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Qosain Bukhari consistently demonstrates strong analytical skills, coding proficiency, and attention to detail in every ML and NLP project he undertakes."</p>
+                        <div class="testimonial-author">
+                            <h4>Project Advisor</h4>
+                            <p>Mentor for practical ML & NLP projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="prev-btn" aria-label="Previous testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="slider-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-btn" aria-label="Next testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section id="cta" class="section-padding">
+    <div class="container">
+        <div class="cta-content">
+            <h2>Ready to Start Your Data Science or ML Project?</h2>
+            <p>Contact Qosain Bukhari today to discuss your project, get guidance, or request a portfolio review</p>
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        </div>
+    </div>
+</section>
+
+   <!-- Contact Section -->
+<section id="contact" class="section-padding">
+    <div class="container">
+        <div class="section-header">
+            <h2>Contact <span>Qosain Bukhari</span></h2>
+            <p>Reach out to discuss your Data Science, ML, or NLP project</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Location</h3>
+                        <p>Mirpur, Azad Kashmir, Pakistan</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Phone Number</h3>
+                        <p>+92 3378624851</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email Address</h3>
+                        <p>bukhariqosain824@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Availability</h3>
+                        <p>Monday - Friday: 9:00 AM - 7:00 PM<br>Saturday: 10:00 AM - 4:00 PM</p>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3485.234235!2d73.7504!3d33.1493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfd4e3b1234567%3A0xabcdef1234567890!2sMirpur%2C%20Azad%20Kashmir%2C%20Pakistan!5e0!3m2!1sen!2s!4v1690000000000!5m2!1sen!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" title="Location"></iframe>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                        <span class="error-message" id="phoneError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="Data Science">Data Science</option>
+                            <option value="Machine Learning">Machine Learning</option>
+                            <option value="NLP Projects">NLP Projects</option>
+                            <option value="Portfolio Review">Portfolio Review</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- Footer Section -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <img src="/Assets/Gallery/Logo.png" alt="Qosain Bukhari Logo">
+                    <span>Qosain Bukhari</span>
+                </div>
+                <p>Providing premium Data Science, Machine Learning, and NLP solutions with precision, quality, and innovation.</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/qosainbukhari" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/qosainbukhari" aria-label="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com/in/qosainbukhari" aria-label="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com/qosainbukhari" aria-label="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/qosain-bukhari" aria-label="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">SKills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-services">
+                <h3>Our Skills</h3>
+                <ul>
+                    <li><a href="#services">Data Science Projects</a></li>
+                    <li><a href="#services">Machine Learning</a></li>
+                    <li><a href="#services">NLP Projects</a></li>
+                    <li><a href="#services">Portfolio Work</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to receive updates on my latest projects and tutorials.</p>
+                <form id="newsletterForm" class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" id="newsletterEmail" placeholder="Your Email Address" required>
+                        <button type="submit" aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                    <div id="newsletterStatus" class="newsletter-status"></div>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Qosain Bukhari. All Rights Reserved.</p>
+            <ul class="footer-bottom-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
